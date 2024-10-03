@@ -87,6 +87,7 @@ const TicTacToe = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-900">
       <h1 className='text-4xl' >Tic-Tac-Toe</h1>
+      <h1 className='text-4xl' >i love Tic-Tac-Toe</h1>
       <div className="mb-4 text-2xl font-bold text-white">{status}</div>
       <div className="grid grid-cols-3 gap-2 bg-gray-100 p-4 rounded-lg shadow-md">
         {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => renderSquare(i))}
